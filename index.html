@@ -5,118 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kauê Dantas | Engenharia Ambiental</title>
     <style>
-        body {
-           <nav style="background: white; padding: 15px; text-align: center; position: sticky; top: 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 1000;">
-    <a href="#sobre" style="margin: 0 10px; text-decoration: none; color: #1f6f43; font-weight: bold;">Sobre</a>
-    <a href="#projetos" style="margin: 0 10px; text-decoration: none; color: #1f6f43; font-weight: bold;">Projetos</a>
-    <a href="#contratos" style="margin: 0 10px; text-decoration: none; color: #1f6f43; font-weight: bold;">Contratos</a>
-</nav> 
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #1f6f43;
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-        }
-
-        section {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-
-        h2 {
-            color: #1f6f43;
-            margin-top: 0;
-        }
-
-        footer {
-            background-color: #1f6f43;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f5; color: #333; scroll-behavior: smooth; }
+        header { background-color: #1f6f43; color: white; padding: 80px 20px; text-align: center; }
+        nav { background: white; padding: 15px; text-align: center; position: sticky; top: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
+        nav a { margin: 0 15px; text-decoration: none; color: #1f6f43; font-weight: bold; transition: 0.3s; }
+        nav a:hover { color: #145231; }
+        section { padding: 60px 20px; max-width: 900px; margin: auto; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin-bottom: 30px; }
+        h2 { color: #1f6f43; border-bottom: 2px solid #1f6f43; padding-bottom: 10px; margin-top: 0; }
+        .btn-ws { display: inline-block; background: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 15px; }
+        .btn-mail { display: inline-block; background: #1f6f43; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 15px; margin-left: 10px; }
+        footer { background: #1f6f43; color: white; text-align: center; padding: 30px; margin-top: 50px; }
+        ul { line-height: 1.8; }
     </style>
 </head>
 <body>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contratos">Contratos</a>
+    <a href="#contato">Contato</a>
+</nav>
 
 <header>
     <h1>Kauê Dantas</h1>
     <p>Estudante de Engenharia Ambiental</p>
 </header>
 
-<section>
+<section id="sobre">
     <div class="card">
         <h2>Sobre mim</h2>
-        <p>Sou estudante de Engenharia Ambiental, focado em soluções sustentáveis, análise ambiental e desenvolvimento de projetos voltados à preservação dos recursos naturais e à qualidade de vida.</p>
-        <p>Utilizo este espaço para publicar meus projetos, estudos, artigos e análises relacionadas à área ambiental, com o objetivo de construir um portfólio técnico e profissional ao longo da minha formação.</p>
-        <p>Acredito que engenharia ambiental é mais do que cumprir normas: é transformar dados, ciência e tecnologia em decisões que protegem o meio ambiente e melhoram a vida das pessoas.</p>
-    </div>
-
-    <div class="card">
-        <h2>Áreas de interesse</h2>
-        <ul>
-            <li>Licenciamento ambiental</li>
-            <li>Gestão de resíduos sólidos</li>
-            <li>Monitoramento ambiental</li>
-            <li>Sustentabilidade e ESG</li>
-            <li>Recursos hídricos</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>Projetos e estudos</h2>
-        <p>Este site será usado para publicar meus trabalhos acadêmicos, estudos ambientais, artigos técnicos e projetos ao longo da minha formação em Engenharia Ambiental.</p>
-    </div>
-
-    <div class="card">
-        <h2>Contato</h2>
-        <p>Em breve disponibilizarei meus canais de contato profissional neste espaço.</p>
-    </div>
-</section>
-<section id="contratos" style="padding: 20px; max-width: 900px; margin: auto;">
-    <div style="background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px;">
-        <h2 style="color: #1f6f43; border-bottom: 2px solid #1f6f43; padding-bottom: 10px;">Gestão de Contratos</h2>
-        <p style="line-height: 1.6;">Informações sobre prestação de serviços, termos de consultoria e modelos de contrato ambiental.</p>
-        
-        <ul style="list-style: none; padding: 0;">
-            <li style="padding: 15px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
-                <span>📄 Termos de Serviço - Consultoria</span>
-                <a href="#" style="color: #1f6f43; text-decoration: none; font-weight: bold;">Ver Detalhes</a>
-            </li>
-            <li style="padding: 15px; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
-                <span>📄 Modelo de Contrato de Resíduos</span>
-                <a href="#" style="color: #1f6f43; text-decoration: none; font-weight: bold;">Ver Detalhes</a>
-            </li>
-        </ul>
-    </div>
-</section>
-<footer>
-    <p>© 2026 – Kauê Dantas | Engenharia Ambiental</p>
-</footer>
-
-</body>
-</html>
+          
+    
