@@ -10,10 +10,14 @@
         nav { background: white; padding: 15px; text-align: center; position: sticky; top: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
         nav a { margin: 0 15px; text-decoration: none; color: #1f6f43; font-weight: bold; }
         section { padding: 40px 20px; max-width: 900px; margin: auto; }
-        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin-bottom: 20px; }
+        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin-bottom: 25px; }
         h2 { color: #1f6f43; border-bottom: 2px solid #1f6f43; padding-bottom: 10px; margin-top: 0; }
         .btn-ws { display: inline-block; background: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px; }
         .btn-mail { display: inline-block; background: #1f6f43; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; margin-top: 10px; margin-left: 5px; }
+        .btn-pdf { color: #1f6f43; font-weight: bold; text-decoration: none; border: 1px solid #1f6f43; padding: 5px 12px; border-radius: 5px; font-size: 14px; transition: 0.3s; }
+        .btn-pdf:hover { background: #1f6f43; color: white; }
+        ul { list-style: none; padding: 0; }
+        li { padding: 15px 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; }
         footer { background: #1f6f43; color: white; text-align: center; padding: 30px; margin-top: 50px; }
     </style>
 </head>
@@ -40,13 +44,23 @@
 
 <section id="projetos">
     <div class="card">
-        <h2>Áreas de interesse</h2>
+        <h2>Projetos e Estudos</h2>
+        <p>Clique nos botões abaixo para visualizar os documentos em PDF:</p>
         <ul>
-            <li>Licenciamento ambiental</li>
-            <li>Gestão de resíduos sólidos</li>
-            <li>Monitoramento ambiental</li>
-            <li>Recursos hídricos</li>
+            <li>
+                <span>📄 Relatório de Estudo de Campo</span>
+                <a href="projeto1.pdf" target="_blank" class="btn-pdf">Ver PDF</a>
+            </li>
+            <li>
+                <span>📄 Análise de Impacto Ambiental</span>
+                <a href="projeto2.pdf" target="_blank" class="btn-pdf">Ver PDF</a>
+            </li>
+            <li>
+                <span>📄 Gestão de Resíduos Sólidos</span>
+                <a href="projeto3.pdf" target="_blank" class="btn-pdf">Ver PDF</a>
+            </li>
         </ul>
+        <p><small>*Certifique-se de subir os arquivos .pdf no seu GitHub para os links funcionarem.</small></p>
     </div>
 </section>
 
@@ -61,7 +75,7 @@
 <section id="contato">
     <div class="card" style="text-align: center;">
         <h2>Contato Profissional</h2>
-        <p>Clique abaixo para falar comigo agora:</p>
+        <p>Entre em contato para parcerias ou consultoria:</p>
         <a href="https://wa.me/5584999344332" target="_blank" class="btn-ws">Chamar no WhatsApp</a>
         <a href="mailto:patrikkaue7@gmail.com" class="btn-mail">Enviar E-mail</a>
     </div>
